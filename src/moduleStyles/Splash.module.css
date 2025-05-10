@@ -1,14 +1,26 @@
 .splashScreen {
   background-image: url("../assets/images/welcomeScreeens/splashImage.jpg");
   width: 100%;
-  height: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
 }
 .text {
   color: red;
   font-size: 2rem;
   text-align: center;
   margin-top: 20%;
+}
+.splashImage {
+  background-image: url("../assets/images/welcomeScreeens/stringSpl.png");
+  width: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 40px;
+  right: 20px;
 }

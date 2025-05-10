@@ -11,7 +11,7 @@ import {
 
 const OnboardingScreen = () => {
   return (
-    <div>
+    <div className="flex justify-center items-center h-screen">
       <div>
         <div className="pt-10 px-5 space-y-8">
           <p className="text-xl text-gray-400">
@@ -20,11 +20,11 @@ const OnboardingScreen = () => {
           <div>
             <img src={OnboardingScreen1} />
           </div>
-          <div className="text-2xl font-medium text-center mb-10 my-7">
+          <div className="text-2xl font-medium text-center mb-10 my-5">
             <p>Find job offers from the most popular job listing sites </p>
           </div>
-          <div className="imagelogo flex justify-center items-center my-15">
-            <div className="flex flex-col gap-2 items-center space-y-5">
+          <div className="imagelogo flex justify-center items-center my-10">
+            <div className="flex flex-col gap-2 items-center space-y-3">
               <div className="flex gap-5">
                 <img src={LinkedInLogo} />
                 <img src={AngelListLogo} />
@@ -37,8 +37,10 @@ const OnboardingScreen = () => {
             </div>
           </div>
           <div>
-            <button className="bg-[#FFBF46] text-white font-medium text-lg py-3 px-10 rounded-md w-full">
-              <p>Next</p>
+            <button className="bg-[#FFBF46] text-white font-medium text-lg py-3 px-10 rounded-md w-full mt-7">
+              <p>
+                <Link to="/onboarding2">Next</Link>
+              </p>
             </button>
           </div>
         </div>

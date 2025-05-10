@@ -24,7 +24,7 @@ const SplashScreen = () => {
           <img src={SplashImage2} />
         </div>
         <div className="text-white font-medium text-center text-2xl absolute bottom-20 left-1/2 transform -translate-x-1/2">
-          <Link>
+          <Link to="/onboarding1">
             <p>Slide to Start {">>"}</p>
           </Link>
         </div>

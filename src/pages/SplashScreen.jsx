@@ -1,5 +1,5 @@
 import React from "react";
-import { SplashImage, SplashImage2 } from "../utils";
+import { SplashImage2 } from "../utils";
 import style from "../moduleStyles/Splash.module.css";
 import { Link } from "react-router-dom";
 const SplashScreen = () => {
@@ -23,7 +23,7 @@ const SplashScreen = () => {
         <div className="mb-5 h-60">
           <img src={SplashImage2} />
         </div>
-        <div className="text-white font-medium text-center text-2xl">
+        <div className="text-white font-medium text-center text-2xl absolute bottom-20 left-1/2 transform -translate-x-1/2">
           <Link>
             <p>Slide to Start {">>"}</p>
           </Link>

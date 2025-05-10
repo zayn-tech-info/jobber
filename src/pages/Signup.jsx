@@ -19,11 +19,13 @@ const signup = () => {
           </div>
         </div>
         <div className="mx-auto flex justify-center my-12">
-          <div className="space-y-4">
-            <Form src={User} type="text" placeholder="username" />
-            <Form src={Mail} type="email" placeholder="username" />
-            <Form src={Password} type="passoword" placeholder="username" />
-          </div>
+          <form action="">
+            <div className="space-y-4">
+              <Form src={User} type="text" placeholder="username" />
+              <Form src={Mail} type="email" placeholder="Email" />
+              <Form src={Password} type="password" placeholder="password" />
+            </div>
+          </form>
         </div>
         <p className="text-sm text-center text-gray-500">
           At least 8 characters, 1 uppercase letter, 1 number, 1 symbol
@@ -43,7 +45,9 @@ const signup = () => {
             <span className="font-medium">Privacy Policy</span>{" "}
           </p>
         </div>
-        <p className="text-center mt-5 my-3">Have an account? <span className="text-[#007AFF] ">Login</span></p>
+        <p className="text-center mt-5 my-3">
+          Have an account? <span className="text-[#007AFF] ">Login</span>
+        </p>
       </div>
     </div>
   );

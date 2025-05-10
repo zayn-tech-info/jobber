@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { OnboardingScreen1 } from "../../utils/index";
 import {
   AngelListLogo,
@@ -12,8 +13,10 @@ const OnboardingScreen = () => {
   return (
     <div>
       <div>
-        <div className="pt-15 px-5 space-y-10">
-          <p className="text-xl text-gray-400">Skip</p>
+        <div className="pt-10 px-5 space-y-8">
+          <p className="text-xl text-gray-400">
+            <Link to="/home">Skip</Link>
+          </p>
           <div>
             <img src={OnboardingScreen1} />
           </div>

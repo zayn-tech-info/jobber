@@ -37,11 +37,11 @@ const OnboardingScreen = () => {
             </div>
           </div>
           <div>
-            <button className="bg-[#FFBF46] text-white font-medium text-lg py-3 px-10 rounded-md w-full mt-7">
-              <p>
-                <Link to="/onboarding2">Next</Link>
-              </p>
-            </button>
+            <Link to="/onboarding2">
+              <button className="bg-[#FFBF46] text-white font-medium text-lg py-3 px-10 rounded-md w-full mt-7">
+                <p>Next</p>
+              </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -13,6 +13,11 @@ import Grassdor from '../assets/images/jobListing/glassdor.png'
 import Monster from '../assets/images/jobListing/Monster.png'
 import Indeed from '../assets/images/jobListing/indeed.png'
 
+import UserImage from "../assets/images/form/user.png"
+import MailImage from "../assets/images/form/mail.png"
+import PasswordImage from "../assets/images/form/password.png"
+
+
 // Exporting the imported images for use in other components
 export const SplashImage = StringImg;
 export const SplashImage2 = StringImg2;
@@ -27,3 +32,8 @@ export const AngelListLogo = AngelList;
 export const GrassdorLogo = Grassdor;
 export const MonsterLogo = Monster;
 export const IndeedLogo = Indeed;
+
+// Exporting the form images for use in other components
+export const User = UserImage;
+export const Mail = MailImage; 
+export const Password = PasswordImage;

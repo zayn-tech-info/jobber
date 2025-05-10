@@ -35,7 +35,7 @@ const onboardingscreen3 = () => {
               </Link>
             </div>
             <div>
-              <Link to="/onboarding1">
+              <Link to="/signup">
                 <button className="bg-[#FFBF46]  font-medium text-lg py-2 px-7 rounded-md w-full">
                   <p>Sign In/Up</p>
                 </button>

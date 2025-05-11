@@ -9,7 +9,7 @@ const Salaryslider = () => {
   };
 
   return (
-    <div className="w-90 px-5 mt-10 rounded-md">
+    <div className="w-70 mt-10 rounded-md">
       <Typography variant="h6">What is your salary range?</Typography>
       <Slider
         value={value}

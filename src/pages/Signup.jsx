@@ -92,7 +92,7 @@ const Signup = () => {
         )}
 
         <div className="w-80 mx-auto my-4 mb-4x">
-          <Link to={`${login ? '/home' : ''}`}>
+          <Link to={`${login ? '/jobpreview' : ''}`}>
             <button className="bg-[#FFC727] font-medium cursor-pointer text-lg py-3 px-8 rounded-md w-full mt-7">
               {login ? "Login" : "Sign Up"}
             </button>

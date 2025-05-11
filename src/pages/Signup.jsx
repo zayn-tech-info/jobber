@@ -92,8 +92,8 @@ const Signup = () => {
         )}
 
         <div className="w-80 mx-auto my-4 mb-4x">
-          <Link to="/onboarding2">
-            <button className="bg-[#FFC727] font-medium text-lg py-3 px-8 rounded-md w-full mt-7">
+          <Link to={`${login ? '/home' : ''}`}>
+            <button className="bg-[#FFC727] font-medium cursor-pointer text-lg py-3 px-8 rounded-md w-full mt-7">
               {login ? "Login" : "Sign Up"}
             </button>
           </Link>
@@ -106,7 +106,7 @@ const Signup = () => {
               </p>
               <p>
                 Don't have an account ?{" "}
-                <span onClick={renderSignup} className="text-blue-500">
+                <span onClick={renderSignup} className="text-blue-500 cursor-pointer">
                   Register
                 </span>
               </p>
@@ -120,7 +120,7 @@ const Signup = () => {
               <span className="font-medium">Privacy Policy</span>{" "}
             </p>
             <p onClick={renderLogin} className="text-center mt-5 my-3">
-              Have an account? <span className="text-[#007AFF] ">Login</span>
+              Have an account? <span className="text-[#007AFF] cursor-po">Login</span>
             </p>
           </div>
         )}

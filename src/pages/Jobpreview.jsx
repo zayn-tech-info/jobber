@@ -47,9 +47,6 @@ const Jobpreview = () => {
         </div>
 
         <div>
-          {/* <p className="text-2xl font-medium py-5">
-            What's your salary range?
-          </p> */}
           <Salaryslider />
         </div>
 

@@ -5,27 +5,25 @@ import { jobs } from "../constants";
 
 Modal.setAppElement("#root");
 
-const JobModal = ({question, actBtn, displayKey}) => {
+const JobModal = ({ question, actBtn, displayKey }) => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  const [role, setRole] = useState('');
+  const [role, setRole] = useState("");
 
   const openModal = () => setModalIsOpen(true);
   const closeModal = () => setModalIsOpen(false);
 
   function handleSave() {
-    closeModal()
+    closeModal();
   }
- 
+
   return (
     <div>
       <div>
         <div>
-          <p className="text-lg font-medium py-5">
-            {question}
-          </p>
+          <p className="text-lg font-medium py-5">{question}</p>
           <div className="space-y-4">
             <div className="flex items-center shadow gap-3  py-2 bg-[#FFBF46] rounded-md justify-center">
-              <span>{role || 'Nill'}</span>
+              <span>{role || "Nill"}</span>
               <ion-icon className="text-2xl" name="close-outline"></ion-icon>
             </div>
             <div
